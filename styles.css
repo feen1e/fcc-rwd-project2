@@ -1,5 +1,7 @@
 * {
     font-size: 10px;
+    font-family: Verdana, sans-serif;
+    color: #303030;
 }
 
 body {
@@ -23,19 +25,32 @@ body {
 }
 
 #img-div {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     padding: 0;
-    margin: 10px;
-    display: block;
+    margin: 3% auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-img {
+#img-caption p {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5px 5px 10px 5px;
+    background-color: #303030;
+    color: ghostwhite;
+    border-radius: 0 0 10px 10px;
+}
+
+#image {
     max-width: 100%;
     display: block;
     height: auto;
-    margin: 0;
-    border-radius: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 5px solid #303030;
 }
 
 h1 {
@@ -57,4 +72,82 @@ p {
     line-height: 1.5;
     font-family: "Holtwood One SC", serif;
     color: #303030;
+    margin-bottom: 0;
+}
+
+#description {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 2% 16% 3% 16%;
+    padding: 15px;
+    border-radius: 10px;
+    color: ghostwhite;
+    background-color: #303030;
+}
+
+.divider {
+    margin: 0 -10%;
+    padding: 0;
+    width: 120%;
+    height: 2rem;
+    background-color: #303030;
+}
+
+#section {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 3% 5% 3% 5%;
+    padding: 15px;
+    border-radius: 10px;
+    color: ghostwhite;
+    background-color: #303030;
+}
+
+#album-lists {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.list p {
+    font-size: 3rem;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+}
+
+.list ul > li {
+    text-align: justify;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+span {
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.list ul {
+    margin-bottom: 3rem;
+}
+
+#closing {
+    font-size: 2rem;
+    margin: 3% auto 1.5% auto;
+    padding: 0;
+}
+
+a {
+    font-size: inherit;
+    color: steelblue;
+}
+
+a:hover {
+    color: darkorchid;
 }
